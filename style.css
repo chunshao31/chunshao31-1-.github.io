@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,600;1,900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+*{
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ff0000;
+  --secondary-color: #e2407e;
+  --hover-color: #FFFFFF;
+}
+
+.d {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background: #b22e2e;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 1px;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+nav {
+  float:right;
+  line-height: 100px;
+  }
+nav a{
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin: 0 20px;
+  color: #fff;
+  }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  text-decoration: none;
+  display: block;
+  background-color: #b22e2e;
+  border-radius:10px;
+  width:300px;
+}
+
+button{
+  width:300px;
+  height:50px;
+  background-color: #b22e2e;
+  font-size:20px;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+.header_instruction {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(u=3050316934,1320764758&fm=253&fmt=auto&app=138&f=JPEG.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 8;
+}
+
+.header_instruction h1{
+    font-size: 800%;
+    color: white;
+    position: absolute;
+    margin: 350px 0px 0px 270px;
+}
+
+
+svg {
+    display: block;
+    font: 2.0em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 1.5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5s infinite linear;
+  position: relative;
+  z-index: 100000;
+}
+
+.text-copy:nth-child(1){
+  stroke: #f2f2f2;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: #ff6600;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: #000000;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: #000000;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: #FDB731;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+
+
+
+.content{
+    z-index: 7;
+    position: absolute;
+    margin 60px 0px;
+    
+    
+}
+.content h2{
+    font-size: 500%;
+    text-align: center;
+}
+.content h5{
+    font-size: 300%;
+    margin: 10px 50px;
+    text-align: left;
+}
+.content p{
+    font-size: 190%;
+    margin: 10px 50px;
+}
+.content ol{
+    text-align: left;
+    margin-left: 90px;
+    font-size: 150%;
+}
+#no{
+    color: red;
+}
+
+.test{
+    z-index: 7;
+    position: absolute;
+    margin 60px 0px;
+    
+}
+.test h2{
+    font-size: 500%;
+    text-align: center;
+    margin:100px 0px 0px 420px;
+}
+.test ol{
+    margin-left: 20px;
+    list-style-type:none;
+}
+.test h5{
+    font-size: 200%;
+    /margin: 10px 0px;
+}
+.test input{
+    margin-left: 20px;
+}
+#sel{
+    font-size: 150%;
+    
+}
+

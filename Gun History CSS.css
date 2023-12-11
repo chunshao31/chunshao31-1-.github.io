@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,600;1,900&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+*{
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ff0000;
+  --secondary-color: #e2407e;
+  --hover-color: #FFFFFF;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  text-decoration: none;
+  display: block;
+  background-color: #b22e2e;
+  border-radius:10px;
+  width:300px;
+}
+
+button{
+  width:300px;
+  height:50px;
+  background-color: #b22e2e;
+  font-size:20px;
+}
+
+.d {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background: #b22e2e;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 1px;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+nav {
+  float: right;
+  line-height: 100px;
+}
+nav a{
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin: 0 20px;
+  color: Black;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+.headerg {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://bestanimations.com/media/clocks/2066581448clock-animated-gif-33.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+svg {
+  display: block;
+  font: 2em 'Montserrat';
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 1.5px;
+  stroke-dashoffset: 0%;
+  animation: stroke-offset 5s infinite linear;
+  position: relative;
+  z-index: 100000;
+}
+
+.text-copy:nth-child(1){
+  stroke: #f2f2f2;
+  animation-delay: -1;
+}
+.text-copy:nth-child(2){
+  stroke: #ff6600;
+  animation-delay: -2s;
+}
+.text-copy:nth-child(3){
+  stroke: #000000;
+  animation-delay: -3s;
+}
+.text-copy:nth-child(4){
+  stroke: #000000;
+  animation-delay: -4s;
+}
+.text-copy:nth-child(5){
+  stroke: #FDB731;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+ 
+.boxg{
+  width: 1200px;
+  left: 100px;
+  top: 50px;
+  font-size: 20px;
+  position: relative;
+  background: white;
+  border: solid tomato;
+  padding: 2em;
+  border-radius: 16px;
+  box-shadow: 0 0 20px 20px rgb(250, 190, 88);
+}
+.box1g{
+  transform: rotate(-1deg);
+  width: 180px;
+  left: 170px;
+  top: -210px;
+  position: relative;
+  background: rgb(250, 190, 88);
+  border: solid tomato;
+  padding: 2em;
+  border-radius: 32px;
+}
+  
+.box2g{
+  width: 450px;
+  left: 50px;
+  top: 100px;
+  position: relative;
+  background: white;
+  border: solid tomato;
+  padding: 2em;
+  border-radius: 16px;
+  box-shadow: 0 0 20px 20px rgb(250, 190, 88);
+  line-height: 50px;
+}
+.box3g{
+  width: 130px;
+  left: 270px;
+  top: -430px;
+  position: relative;
+  background: rgb(250, 190, 88);
+  border: solid tomato;
+  padding: 2em;
+  border-radius: 32px;
+}
+.box4g{
+  width: 1100px;
+  left: 145px;
+  top: -10px;
+  position: relative;
+  background: white;
+  border: solid tomato;
+  padding: 2em;
+  border-radius: 16px;
+  box-shadow: 0 0 20px 20px rgb(250, 190, 88);
+  line-height: 50px;
+}
+.box5g{
+  transform: rotate(-0.5deg);
+  width: 190px;
+  left: 200px;
+  overflow: hidden;
+  top: -280px;
+  position: relative;
+  background: rgb(250, 190, 88);
+  border: solid tomato;
+  padding: 2em;
+  border-radius: 32px;
+}
+.box6g{
+  width: 650px;
+  left: 650px;
+  top: -300px;
+  position: relative;
+  background: white;
+  border: solid tomato;
+  padding: 2em;
+  border-radius: 16px;
+  box-shadow: 0 0 20px 20px rgb(250, 190, 88);
+  line-height: 50px;
+}
+.box7g{
+  width: 100px;
+  left: 700px;
+  top: -722px;
+  position: relative;
+  background: rgb(250, 190, 88);
+  border: 2px dashed white;
+  padding: 2em;
+  border-radius: 32px;
+}
+.box8g{
+  width: 250px;
+  left: 700px;
+  top: -722px;
+  position: relative;
+  background: rgb(250, 190, 88);
+  border: 2px dashed white;
+  padding: 2em;
+  border-radius: 32px;
+}
+
+.h2g {
+  font-weight: bold;
+  font-size: 2rem;
+  color: tomato;
+}
+
+.f1g {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+  color: tomato;
+}
+
+.ulg,li{
+  list-style: none;
+}
+.ulg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ulg li a{
+  text-decoration: none;
+  color: #000;
+  left: 5px;
+  background: #ffc;
+  display: block;
+  height: 23em;
+  width: 30em;
+  padding: 1em;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  transform: rotate(-6deg);
+  transition: transform 0.15s linear;
+}
+.ulg li:nth-child(even) a{
+  transform: rotate(4deg);
+  position: relative;
+  top: 5px;
+  background: #cfc;
+}
+.ulg li:nth-child(3n) a{
+  transform: rotate(-3deg);
+  position: relative;
+  top: -5px;
+  background: #ccf;
+}
+.ulg li:nth-child(5n) a{
+  transform: rotate(5deg);
+  position: relative;
+  top: -10px;
+}
+.ulg li a:hover,ul li a:focus{
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.2);
+  position: relative;
+  z-index: 5;
+}
+.ulg li{
+  margin: 1em;
+  top: 50px;
+}
+
+
+.aafg{
+  top: 2000px;
+  margin-top: -200px;
+  left: 200px;
+  padding: 0;
+}
+
+.effectfront:hover {
+  opacity: 10;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transform: scale(1.5);
+  position: relative;
+  z-index: 5;
+}
+.my_class_name {
+  margin: 0 auto;
+  border: 7px dashed #dd0000;
+}
+
+p, li, a{
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.yoyog{
+  text-indent: 25px;
+  font-family:
+  'Shadows Into Light', 
+  cursive;
+  line-height: 1.5em;
+  color: black; 
+}
+
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+   opacity: 1;
+  }
+}

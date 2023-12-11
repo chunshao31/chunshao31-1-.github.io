@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="M16nDesert_Eagel.ccs.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100;200&amp;family=Questrial&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;family=Foldit:wght@100;200&amp;family=Lobster&amp;family=Questrial&amp;display=swap" rel="stylesheet">
+  <script src="M16nDesert_Eagel.JS.js" defer></script>
+  <title></title>
+</head>
+<body id="bkgrd1">
+  <header class="header" id="home">
+    <header>
+      <div class="d">
+        <div class="logo">
+          <svg viewbox="0 0 960 300">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="25%" y="25%">
+              GunWiki
+            </text>
+          </symbol>
+          <g class="g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g></svg>
+        </div>
+        <nav>
+          <a href="Main.html">Home</a>
+          <div class="dropdown">
+            <button>Gun</button>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="Barret.html">Barrett M82</a>
+                </li>
+                <li>
+                  <a href="Ak-47.html">AK-47</a>
+                </li>
+                <li>
+                  <a href="Desert%20Eagle.html">Desert Eagle</a>
+                </li>
+                <li>
+                  <a href="M16.html">M16 Rifle</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button>General</button>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href="Gun%20History.html">Gun History</a>
+                </li>
+                <li>
+                  <a href="Survey.html">Survey</a>
+                </li>
+                <li>
+                  <a href="#">Firearms Instructions</a>
+                </li>
+                <li>
+                  <a href="#">Game</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </header>
+  <div class="col1">
+    <div class="aaa">
+      <div class="p1">
+        <b class="a1">·Desert Eagle</b><br>
+        <br>
+        <p class="a2">The Desert Eagle is a gas-operated, semi-automatic pistol known for chambering the .50 Action Express, the largest centerfire cartridge of any magazine-fed, self-loading pistol. The pistol is fired by a single action hammer and has a manual safety switch on the slide. The ambidextrous safety switch rotates a drum mechanism that sits over the firing pin, causing the firing pin to lock in, which prevents it from moving forward and reduces the possibility of the gun discharging accidentally. With the safety off, pulling the trigger releases, allowing the hammer to fall downward, hitting the firing pin, and causing the chambered round to discharge.</p><br>
+        <button class="Design" onclick="showDiv()">Design</button>
+      </div><br>
+      <div id="myDiv"><img id="pctr1" src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Desert_Eagle_patent_4619184.png/330px-Desert_Eagle_patent_4619184.png' alt="330px-Desert_Eagle_patent_4619184"></div>
+    </div>
+  </div>
+  <div class="line"></div>
+  <div class="col1">
+    <div id="box">
+      <img id='desert' src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/DesertEagle_50AE.jpg/330px-DesertEagle_50AE.jpg' alt="330px-DesertEagle_50AE">
+      <table id="tab">
+        <tr>
+          <td><b>Name</b></td>
+          <td>Desert Eagle</td>
+        </tr>
+        <tr>
+          <td><b>Type</b></td>
+          <td>Semi-automatic pistol</td>
+        </tr>
+        <tr>
+          <td><b>Place of origin</b></td>
+          <td>United States/Israel</td>
+        </tr>
+        <tr>
+          <td><b>Designed</b></td>
+          <td>1979–1982</td>
+        </tr>
+        <tr>
+          <td><b>Produced</b></td>
+          <td>1983–present</td>
+        </tr>
+        <tr>
+          <td><b>Maximum firing range</b></td>
+          <td>201 meters</td>
+        </tr>
+        <tr>
+          <td><b>Sights</b></td>
+          <td>Iron sights and optional optics</td>
+        </tr>
+      </table>
+    </div>
+  </div><br>
+  <script>
+function showDiv() { 
+  let x = document.getElementById("myDiv"); 
+  if (x.style.display == "none") { 
+    x.style.display = "block"; 
+  } else { 
+    x.style.display = "none"; 
+  } 
+} 
+  </script>
+</body>
+</html>
