@@ -1,8 +1,10 @@
 var score = 0;
-function getRadioValue(){
-    var nm = $('#n').attr('name');
-    var radio = document.querySelector("input[name='nm']:checked");
-    console.log(n);
-    console.log(radio.value);
-    
+function getRadioValue1(){
+    var radio = document.querySelector("input[name='t1']:checked");
+    if(radio.value=="A"){
+        document.getElementById('tf1').innerHTML = "Your answer is correct!";
+    }
+    else{
+        document.getElementById('tf1').innerHTML = "Incorrect, the correct answer is A.";
+    }
 }
